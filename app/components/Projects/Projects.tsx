@@ -11,7 +11,7 @@ const Projects = () => {
             tech: 'Arduino UNO, MPU6050 Sensor, Flex Sensor, Servo Motors, I2C Communication protocol, C/C++ Programming, VR',
             source: {
                 sourceLink: "https://github.com/kailas24/VR-Teleoperated-Robotic-Arm-with-Head-Tracking-FPV-System",
-                linkedIn: "https://drive.google.com/drive/folders/1gY1q9chQm-UGSZxIy9Y0luFR_2nZw9CE"
+                linkedIn: "https://www.linkedin.com/posts/kailas-jayan_robotics-embeddedsystems-arduino-ugcPost-7451282172444901376-938h?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgByO8BeE2DxiWEp9fvqN7NYKYnMiWJoNg"
             },
             link: 'https://github.com/kailas24/VR-Teleoperated-Robotic-Arm-with-Head-Tracking-FPV-System'
         },
