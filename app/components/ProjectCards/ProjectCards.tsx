@@ -7,6 +7,7 @@ interface Source {
   frontend?: string;
   backend?: string;
   sourceLink?: string;
+  linkedIn?: string;
 }
 
 type Props = {
@@ -59,7 +60,7 @@ const ProjectCards: React.FC<Props> = (props) => {
       className="relative flex flex-col px-9 py-8 h-[29rem] max-sm:h-[29rem] max-md:h-[30rem] mx-auto w-full text-base leading-none text-white rounded-xl bg-[#111] backdrop-blur-md border border-white/10 shadow-2xl transition-colors duration-300 hover:border-cyan-500/50 max-md:px-5 max-md:mt-10 group"
     >
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" 
+        className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-cyan-500/0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" 
       />
 
       <motion.div style={{ transform: "translateZ(50px)", transformStyle: "preserve-3d" }}>
@@ -77,13 +78,25 @@ const ProjectCards: React.FC<Props> = (props) => {
 
         <motion.div style={{ transform: "translateZ(60px)" }} className="flex gap-2.5 mt-6 max-sm:mt-4 justify-center w-full whitespace-nowrap">
           {props.source?.sourceLink && (
-            <div className="w-full text-center">
+            <div className="flex-1 text-center">
               <Link target="_blank" href={props.source.sourceLink} rel="noopener noreferrer">
                 <button
-                  className="w-[80%] text-white shadow-[0_0_15px_rgba(34,211,238,0.1)] bg-cyan-500/10 px-6 py-3 rounded-lg hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] duration-300 border border-cyan-500/20 font-medium tracking-wide"
+                  className="w-full text-white shadow-[0_0_15px_rgba(34,211,238,0.1)] bg-cyan-500/10 px-6 py-3 rounded-lg hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] duration-300 border border-cyan-500/20 font-medium tracking-wide"
                   aria-label="View Source"
                 >
                   View Source
+                </button>
+              </Link>
+            </div>
+          )}
+          {props.source?.linkedIn && (
+            <div className="flex-1 text-center">
+              <Link target="_blank" href={props.source.linkedIn} rel="noopener noreferrer">
+                <button
+                  className="w-full text-white shadow-[0_0_15px_rgba(34,211,238,0.1)] bg-cyan-500/10 px-6 py-3 rounded-lg hover:bg-cyan-400 hover:text-black hover:shadow-[0_0_30px_rgba(34,211,238,0.4)] duration-300 border border-cyan-500/20 font-medium tracking-wide"
+                  aria-label="View on LinkedIn"
+                >
+                  LinkedIn
                 </button>
               </Link>
             </div>

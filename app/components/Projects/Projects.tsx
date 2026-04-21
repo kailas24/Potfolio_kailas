@@ -10,9 +10,10 @@ const Projects = () => {
             description:'The VR Teleoperated Robot uses Arduino Uno, MPU6050, and Flex Sensors for gesture-based control of servo motors. It is ideal for tasks in hazardous environments, medical surgeries, and remote operations.',
             tech: 'Arduino UNO, MPU6050 Sensor, Flex Sensor, Servo Motors, I2C Communication protocol, C/C++ Programming, VR',
             source: {
-                sourceLink: "https://drive.google.com/drive/folders/1gY1q9chQm-UGSZxIy9Y0luFR_2nZw9CE"
+                sourceLink: "https://github.com/kailas24/VR-Teleoperated-Robotic-Arm-with-Head-Tracking-FPV-System",
+                linkedIn: "https://drive.google.com/drive/folders/1gY1q9chQm-UGSZxIy9Y0luFR_2nZw9CE"
             },
-            link: ''
+            link: 'https://github.com/kailas24/VR-Teleoperated-Robotic-Arm-with-Head-Tracking-FPV-System'
         },
         {
             title: 'Underwater Robot',
@@ -22,7 +23,17 @@ const Projects = () => {
               sourceLink: "https://drive.google.com/file/d/1R5-0Ce-D3mpUjZE_bRz1JjSkSC0m8mOy/view"
             },
             link: 'https://learnify-client-tau.vercel.app'
-          },
+        },
+        {
+            title: 'ROS2 Robot Arm MoveIt',
+            description: 'A robotic arm control system using ROS2 and MoveIt framework. This project implements advanced motion planning, trajectory control, and manipulation capabilities for autonomous robot arm operations.',
+            tech: 'ROS2, MoveIt, Robot Arm, Motion Planning, C++, Python',
+            source: {
+              sourceLink: "https://github.com/kailas24/ros2-robot-arm-moveit",
+              linkedIn: "https://www.linkedin.com/posts/kailas-jayan_ros2-robotics-moveit-activity-7451265886415458304-X1_N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgByO8BeE2DxiWEp9fvqN7NYKYnMiWJoNg"
+            },
+            link: 'https://github.com/kailas24/ros2-robot-arm-moveit'
+        },
     ];
 
     return (

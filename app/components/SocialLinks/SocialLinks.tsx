@@ -31,7 +31,7 @@ const SocialLinks = () => {
       className="flex gap-8 max-sm:gap-0.5 items-start mt-16 self-start ml-32 max-md:mt-10 max-md:ml-10"
     >
       {/* GITHUB PROFILE */}
-      <Link href={''} target="_blank">
+      <Link href={'https://github.com/kailas24'} target="_blank">
         <IoLogoGithub size={iconSize} className="object-contain shrink-0 aspect-[0.85] w-[39px] text-zinc-100 opacity-60 hover:opacity-100" />
       </Link>
       <Link href={'https://www.linkedin.com/in/kailas-jayan/'} target="_blank">

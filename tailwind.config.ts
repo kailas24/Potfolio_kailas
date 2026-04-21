@@ -1,4 +1,3 @@
-import { Inter, Roboto, Roboto_Slab, Suez_One } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
