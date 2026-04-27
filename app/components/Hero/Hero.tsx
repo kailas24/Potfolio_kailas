@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-900/20 rounded-full blur-[120px] pointer-events-none" />
 
             {lgScreen < 1024 && (
-                <Link href={'/Kailas_Jayan_CV_Final.pdf'} download className="absolute right-5 top-5 p-3 px-8 text-xl font-medium text-cyan-400 underline decoration-cyan-400/50 hover:text-white transition-colors duration-300">
+                <Link href={'/Kailasjayan_CV.pdf'} download className="absolute right-5 top-5 p-3 px-8 text-xl font-medium text-cyan-400 underline decoration-cyan-400/50 hover:text-white transition-colors duration-300">
                     Download CV
                 </Link>
             )}
@@ -74,7 +74,7 @@ const Hero = () => {
                             Projects
                         </Link>
                         {lgScreen >= 1024 && (
-                            <Link href={'/Kailas_Jayan_CV_Final.pdf'} download className="overflow-hidden gap-2 self-start px-8 py-3.5 text-lg font-medium leading-none whitespace-nowrap rounded-lg border border-cyan-500/50 text-white hover:bg-cyan-500/10 hover:border-cyan-400 duration-300">
+                            <Link href={'/Kailasjayan_CV.pdf'} download className="overflow-hidden gap-2 self-start px-8 py-3.5 text-lg font-medium leading-none whitespace-nowrap rounded-lg border border-cyan-500/50 text-white hover:bg-cyan-500/10 hover:border-cyan-400 duration-300">
                                 Download CV
                             </Link>
                         )}
